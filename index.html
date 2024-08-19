@@ -102,7 +102,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/stiowebsite/STIO/tree/main" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -155,16 +155,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-              Achieving consistent and accurate visual reconstruction of human anatomy in arbitrary poses, including 3D mesh and internal skeletal
-            information, is a valuable task with high demands for precision and authenticity in some low-cost medical scenarios. To address this
-            task, we propose a regression-optimization framework in this work, which simultaneously predicts human body mesh and anatomical
-            skeletal structure from a single image. The framework, named STIO (See Through the Inside and Outside), establishes a tightly
-            association between the human body and skeleton, combining the advantages of regression and optimization methods to achieve both
-            precision and consistency requirements, as well as good performance in terms of speed. To the best of our knowledge, we are the first
-            to propose a visual method for anatomical skeleton and human body reconstruction in arbitrary poses using a single image. Compared
-            to existing pose prediction or skeletal reconstruction algorithms, our method considers anatomical constraints, resulting in better
-            accuracy, consistency, and a representation that closely resembles real human bodies, meeting the requirements of medical-related
-            scenarios.
+              Abstract—Efficient, accurate and low-cost estimation of human skeletal information is crucial for a range of applications such as biology education and human-computer interaction. However, current simple skeleton models, which are typically based on 2D-
+            3D joint points, fall short in terms of anatomical fidelity, restricting their utility in fields. On the other hand, more complex models while anatomically precise, are hindered by sophisticate multi-stage processing and the need for extra data like skin meshes,
+            making them unsuitable for real-time applications. To this end, we propose the STIO (See Through the Inside and Outside), a single-stage, lightweight, and plug-and-play anatomical skeleton estimator that can provide real-time, accurate anatomically real-
+            istic skeletons with arbitrary pose using only a single RGB image input. Additionally, STIO estimates the conventional human mesh model explicitly, which not only enhances the functionality but also leverages the outside skin information by integrating
+            features into the inside skeleton modeling process. In this work, we also develop a progressive training strategy and integrated it with an enhanced optimization process, enabling the network to obtain initial weights using only a small skin dataset and
+            achieve self-supervision in skeleton reconstruction. Besides, we also provide an optional lightweight post-processing optimization strategy to further improve accuracy for scenarios that prioritize precision over real-time processing. The experiments
+            demonstrated that our regression method is over 800 times faster than existing methods, meeting real-time requirements. Additionally, the post-processing optimization strategy provided can enhance reconstruction accuracy by over 50% and achieve
+            a speed increase of more than 7 times.
           </p>
         </div>
       </div>
