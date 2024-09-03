@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <style>
+    .centered-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 两列布局 */
+      grid-gap: 10px; /* 列之间的间距 */
+    }
+
+    .item {
+      width: 100%; /* 视频宽度 */
+      height: auto; /* 视频高度 */
+    }
+  </style>
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Video carousel -->
+<section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <span class="author-block">
+          <a href="/post/data.html" target="_blank">Additional Result</a><sup>*</sup>,</span>
+        <h2 class="title is-3">Additional Result</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="grid-container">
+            <div class="item item-video1">
+              <video poster="" id="video1" autoplay controls muted loop height="100%">
+                <source src="static/videos/kongfu.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-video2">
+              <video poster="" id="video2" autoplay controls muted loop height="100%">
+                <source src="static/videos/case1.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-video3">
+              <video poster="" id="video3" autoplay controls muted loop height="100%">
+                <source src="static/videos/case2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-video4">
+              <video poster="" id="video4" autoplay controls muted loop height="100%">
+                <source src="static/videos/case3.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item item-video5">
+              <video poster="" id="video5" autoplay controls muted loop height="100%">
+                <source src="static/videos/case4.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
